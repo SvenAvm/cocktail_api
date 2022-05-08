@@ -28,16 +28,21 @@ Alcoholic: Yes
 
 
 
-# Task 2
-- Implement a console application which searches cocktails by ingredient and
-outputs the first found cocktail with details
-- When the application starts it should prompt the user to input an ingredient
-- When the user inputs an ingredient the application should output the first
-cocktail which contains that ingredient with some details about that cocktail
-(cocktail name, alcoholic, glass)
+# Task 3
+- Implement a console application which searches cocktails by ingredient and additional
+search parameter for filtering cocktail by name
+- When the application starts it should prompt the user to input an ingredient and cocktail
+name keyword
+- When the user inputs an ingredient and a keyword the application should output the first
+cocktail which contains that ingredient and which name contains the required keyword
 - Example:
 - User inputs ‘Gin’
+- User inputs ‘Martini’
 - Result:
-Name: 3-Mile Long Island Iced Tea
-Glass: Collins Glass
+Name: Abbey Martini
+Glass: Cocktail glass
 Alcoholic: Yes
+
+### Resources
+- Cocktails API:
+- https://www.thecocktaildb.com
