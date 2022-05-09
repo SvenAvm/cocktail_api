@@ -7,7 +7,7 @@ outputs a list of cocktails in the console
 with that ingredient
 - Example:
 - User inputs ‘Gin’
-- Result: 3-Mile Long Island Iced Tea, 69 Special, A1, etc.
+- #### Result: 3-Mile Long Island Iced Tea, 69 Special, A1, etc.
 (drink names can be comma separated or new line separated)
 
 
@@ -21,10 +21,10 @@ cocktail which contains that ingredient with some details about that cocktail
 (cocktail name, alcoholic, glass)
 - Example:
 - User inputs ‘Gin’
-- Result:
-Name: 3-Mile Long Island Iced Tea
-Glass: Collins Glass
-Alcoholic: Yes
+- ### Result:
+#### Name: 3-Mile Long Island Iced Tea
+#### Glass: Collins Glass
+#### Alcoholic: Yes
 
 
 
@@ -38,11 +38,16 @@ cocktail which contains that ingredient and which name contains the required key
 - Example:
 - User inputs ‘Gin’
 - User inputs ‘Martini’
-- Result:
-Name: Abbey Martini
-Glass: Cocktail glass
-Alcoholic: Yes
+- ### Result:
+#### Name: Abbey Martini
+#### Glass: Cocktail glass
+#### Alcoholic: Yes
 
-### Resources
-- Cocktails API:
-- https://www.thecocktaildb.com
+
+
+
+
+
+# Resources
+- ### Cocktails API:
+- ### https://www.thecocktaildb.com
